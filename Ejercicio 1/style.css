@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(222, 194, 125);
+    font-family: "Alegreya Sans";
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+a{
+    color:rgb(103, 3, 197);
+}
+h1 { 
+    color: rgb(245, 139, 10);
+}
