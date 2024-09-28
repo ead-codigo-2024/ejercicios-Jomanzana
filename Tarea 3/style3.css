@@ -1,7 +1,7 @@
 .container {
     max-width: 900px;
     margin-inline: auto;
-    background-color: whitesmoke;
+    background-color: white;
   }
   .container_header {
     display: flex;
@@ -15,6 +15,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    height: auto;
   }
   img,
   video {
@@ -36,3 +37,49 @@
     padding: 20px;
     background-color: white;
   }
+  h3{
+    margin-top: 20px;
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+  }
+  a{
+    text-decoration: none;
+    font-family: "Nunito Sans" , sans-serif;
+    font-size: 10px;
+  }
+  span{
+    margin-left: 5%;
+    padding: 5%;
+    border-radius: 5%;
+    font-family: "Raleway";
+    font-size: 15px;
+  }
+  h4{
+    font-family: "Oswald";
+    font-size: 15px;
+  }
+  div span{
+    font-family: "Roboto Condensed";
+    font-size: 10px;
+  }
+ <style>
+  .contenedor {
+    position: relative; 
+    width: 100%; 
+  }
+  .contenedor img {
+    width: 100%; 
+    height: auto; 
+  }
+  .access_tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 255, 0.407);
+    color: white; 
+    padding: 5px 10px;
+    font-size: 10px; 
+    font-weight: lighter;
+    border-radius: 2rem;
+  }
+</style>
